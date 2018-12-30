@@ -15,3 +15,13 @@ I'll be documenting my progress as I go with simple output:
 ### Map 02: Isolating Tag Types: Roads
 
 ![map02](output_tests/map02.png)
+
+### Map 03: Isolating Tag Types: Buildings
+
+![map03](output_tests/map03.png)
+
+### Map 04: Everything Buy Buildings
+
+![map04](output_tests/map04.png)
+
+
