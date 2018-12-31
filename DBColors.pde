@@ -1,4 +1,5 @@
 color[] colors;
+Integer cursor;
 
 color getColor(int i) {
   if ( colors == null ) {
@@ -33,4 +34,12 @@ color[] colorArray() {
   colorArray[20] = #ffffff;
   colorArray[21] = #000000;
   return colorArray;
+}
+
+color nextColor() {
+  color[] colorArray = colorArray();
+  if ( cursor == null ) cursor = 0;
+  color toReturn = colorArray[cursor % 22];
+  cursor += 1;
+  return toReturn;
 }

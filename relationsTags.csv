@@ -1,0 +1,599 @@
+building, "apartments", 17
+name, "19th Street Oakland", 10
+source, "bing approx- please update", 2
+name, "Central Avenue", 5
+from, "Richmond", 378
+name, "Wesley Avenue", 4
+name, "Millbrae-Pittsburg / Bay Point", 173
+amenity, "school", 3
+from, "Foothill Square", 186
+public_transport:version, "2", 3872
+public_transport:version, "1", 1608
+name, "8th Avenue", 2
+name, "Island Drive", 19
+to, "Seattle", 1364
+colour, "#e6ac11", 244
+type, "route", 13111
+wikipedia, "en:Oakland–Alameda County Coliseum", 2
+admin_level, "6", 85
+admin_level, "8", 47
+tiger:NAME, "Oakland", 14
+name, "Line 88 to Downtown Berkeley BART", 105
+gnis:feature_id, "223832", 2
+name, "Line 851 to Fruitvale BART", 139
+alt_name, "Bay Trail", 489
+name, "4th Street", 11
+name, "Line 72M to Point Richmond", 265
+name, "Line 800 to Richmond BART", 392
+is_in:state, "CA", 733
+to, "Bakersfield Station", 347
+wikidata, "Q490744", 3
+water, "lake", 6
+tiger:NAMELSAD, "Brisbane city", 6
+tiger:NAME, "Alameda", 3
+from, "Oakland International Airport (OAK)", 9
+attribution, "CASIL cnty24k09_1_poly.shp", 85
+AREAID, "110167290336", 2
+from, "Warm Springs / South Fremont", 191
+floating, "yes", 2
+tiger:PLACENS, "02409912", 6
+name, "Dublin / Pleasanton-Daly City", 82
+name, "Martinez Subdivision", 152
+name, "Magnolia Street", 6
+to, "San Francisco International Airport", 165
+name, "Warm Springs / South Fremont-Daly City", 91
+county:abbrev, "ALA", 32
+name, "Allman Street", 3
+nist:state_fips, "6", 85
+tiger:NAMELSAD, "Oakland city", 14
+name:zh, "圣马刁县", 32
+official_name, "Oakland-Alameda County Coliseum", 2
+name, "Excelsior Avenue", 10
+building:levels, "10", 2
+place_name, "Alameda", 3
+implicit, "yes", 51
+via, "Portland", 1364
+MTFCC, "K2180", 2
+name, "Telegraph Avenue", 103
+tiger:PLACENS, "02409669", 3
+route, "bus", 6126
+addr:state, "CA", 2
+phone, "+1 510 238 4322", 4
+to, "Rockridge BART", 110
+MTFCC, "H2030", 6
+tiger:PLCIDFP, "0667000", 20
+to, "Oakland International Airport (OAK)", 10
+direction, "north", 135
+to, "Bay Fair BART", 549
+name:zh, "阿拉梅达县", 32
+to, "Richmond BART", 392
+via, "Webster Tube", 88
+name, "3rd Street", 9
+to, "West Oakland BART", 72
+name, "Alice Street", 8
+to, "Richmond", 369
+name, "Coliseum–Oakland International Airport", 10
+addr:city, "Oakland", 6
+name:zh, "奥克兰", 14
+source, "TIGER/Line® 2008 Place Shapefiles (http://www.census.gov/geo/www/tiger/)", 23
+name, "AT&T Oakland OC3 central office", 2
+name, "Montana Street", 2
+name, "Lake Merritt", 14
+source:population, "https://www.census.gov/programs-surveys/popest.html", 64
+is_in:state, "California", 43
+from, "MacArthur BART", 171
+to, "Downtown Berkeley BART", 919
+AWATER, "602433", 6
+route, "train", 2304
+name, "G Complex", 3
+to, "Point Richmond", 265
+to, "Transbay Temporary Terminal", 1
+type, "site", 6
+name:zh, "阿拉米達", 3
+name, "Myrtle Street", 4
+name, "Richmond-Daly City", 75
+name, "Pardee Drive", 5
+direction, "south", 131
+to, "Oakland Amtrak at Jack London Square", 175
+name, "I 880 (CA northbound)", 135
+ref, "Green", 330
+tiger:MTFCC, "G4110", 43
+building, "yes", 702
+wikidata, "Q107146", 32
+name, "Line 1R to Downtown Berkeley BART (Weekday)", 348
+ref, "Yellow", 681
+name, "10th Street", 4
+name, "45th Avenue", 4
+addr:street, "9th Street", 2
+ref, "Silver", 21
+name, "Coliseum (OAC) / Oakland Airport (OAK)", 2
+county:ansi, "081", 32
+alt_name:vi, "Xăng Phăng", 20
+county:ansi, "075", 21
+ref, "712-718", 347
+colour, "#00aeef", 164
+name, "Line 800 to San Francisco", 357
+building, "garages", 2
+name, "5th Street", 14
+type, "domain awareness center", 27
+route, "railway", 499
+gnis:state_id, "06", 2
+nist:fips_code, "6081", 32
+name:pt, "São Francisco", 20
+water, "pond", 2
+addr:state, "California", 2
+from, "San Francisco International Airport", 162
+nist:fips_code, "6075", 21
+place_name, "San Francisco", 20
+name, "Pittsburg / Bay Point-SFO/Millbrae", 4
+nist:fips_code, "6001", 32
+name, "Fruitvale", 5
+name, "Fremont-Richmond", 93
+name, "Line 88 to Lake Merritt BART", 109
+name, "Franklin Elementary School", 2
+building, "mixed_use", 2
+old_name, "MacAfee Coliseum; O.co Coliseum", 2
+name, "Oakland Housing Authority", 2
+name, "Coast Starlight", 1364
+via, "Oakland", 1099
+name, "Webster Street", 18
+name, "Oakland City Hall", 4
+is_in:country_code, "US", 43
+name, "San Pablo Avenue", 36
+highway, "pedestrian", 7
+county:ansi, "001", 32
+addr:housenumber, "575", 2
+natural, "water", 8
+to, "Estates Ave. & Inverlieth Terr., Piedmont", 133
+name:ar, "بريسباني، سان ماتيو، كاليفورنيا", 6
+tiger:NAMELSAD, "San Francisco city", 20
+from, "Jack London Square", 265
+tiger:PLACENS, "02411786", 20
+from, "Fremont", 169
+name, "9th Street", 11
+direction, "East", 224
+wikidata, "Q108101", 32
+tiger:PLCIDFP, "0600562", 3
+name, "Franklin Street", 7
+FIXME, "Exact stop positions and platforms needed", 696
+longitude, "-122.2694685", 2
+route, "road", 1323
+wikipedia, "en:Alameda, California", 3
+to, "Oakland Coliseum (OAC)", 9
+from, "Los Angeles", 1364
+name, "Line 26 to Lakeshore Avenue", 128
+name, "Daly City-Dublin / Pleasanton", 82
+colour, "#191970", 1364
+name, "Oakland Jack London Square Station", 4
+natural, "scrub", 3
+name, "Line 851 to Downtown Berkeley", 133
+colour, "#ffe800", 681
+restriction, "no_right_turn", 42
+name, "I 580 (CA eastbound)", 224
+population, "870887", 21
+name, "Line 72 to Jack London Square", 503
+from, "Gilman St & 6th St", 175
+gnis:created, "06/14/2000", 2
+ref, "185", 218
+border_type, "city", 47
+alt_name, "Alameda", 32
+name, "Daly City-Richmond", 74
+boundary, "administrative", 132
+wikipedia, "en:Oakland – Jack London Square (Amtrak station)", 4
+name, "Filbert Street", 2
+ref, "SFB", 489
+type, "boundary", 132
+tiger:CPI, "Y", 37
+tiger:CPI, "N", 6
+name, "MacArthur Boulevard", 26
+name, "Soda Commons", 3
+route_master, "monorail", 2
+operator, "Union Pacific Railroad", 270
+ALAND, "47929", 2
+name, "Park Boulevard", 76
+ref, "Red", 355
+name, "The Altenheim", 2
+name, "Victory Court", 3
+from, "Rockridge BART", 113
+route_master, "bus", 38
+name, "Oakland Museum of California", 2
+name, "Line 1 to Downtown Berkeley BART", 363
+building:levels, "5", 9
+building:levels, "2", 8
+building:levels, "4", 5
+building:levels, "3", 2
+Tiger:HYDROID, "110167290253", 6
+name, "Student Center & Cafeteria", 2
+to, "Monroe St & San Pablo Ave", 140
+route_master, "train", 4
+name, "98th Avenue", 16
+type, "building", 4
+building, "school", 7
+name:zh, "布里斯班", 6
+tiger:PLCIDFP, "0653000", 14
+via, "Downtown Berkeley BART", 275
+addr:housenumber, "328", 2
+ele, "12", 2
+county:name, "San Francisco", 21
+to, "San Francisco", 357
+network, "BART", 2010
+name, "Pittsburg / Bay Point-Millbrae", 177
+tiger:reviewed, "no", 43
+to, "MacArthur BART", 163
+name, "Line 802 to Downtown Oakland", 119
+from, "Pittsburg / Bay Point", 177
+restriction, "only_straight_on", 9
+ownership, "city", 27
+AWATER, "0", 2
+name, "Cougar Village", 2
+from, "Lakeshore Avenue", 128
+tiger:LSAD, "25", 43
+addr:postcode, "94621", 2
+addr:postcode, "94606", 2
+addr:postcode, "94607", 2
+via, "Alameda", 223
+sport, "multi", 2
+county:abbrev, "SFO", 21
+name, "Cañon Avenue", 2
+name, "260 (unsigned)", 36
+name, "I 980 (CA)", 20
+county:abbrev, "SMT", 32
+wikipedia, "en:California State Route 13", 91
+symbol, "http://upload.wikimedia.org/wikipedia/commons/4/40/I-580_(CA).svg", 447
+created_by, "Potlatch 0.8", 3
+name, "Adeline Street", 11
+route_master, "subway", 18
+owner, "Oakland", 27
+name, "Line 31 to MacArthur BART", 163
+name, "San Francisco City and County", 21
+name, "Lighthouse Community Charter School", 3
+man_made, "pier", 2
+name, "I 880 (CA southbound)", 131
+to, "Berkeley Amtrak", 108
+tiger:PLACEFP, "53000", 14
+wikidata, "Q851034", 4
+type, "stop", 25
+name, "Richmond-Warm Springs / South Fremont", 109
+via, "Posey Tube", 91
+name, "Oakland Coliseum", 2
+addr:street, "Hanover Avenue", 2
+note, "As of August 2008, no longer unsigned: see http://en.wikipedia.org/wiki/California_State_Route_77", 11
+network, "AC Transit", 135
+addr:street, "Coliseum Way", 2
+tiger:PLACEFP, "00562", 3
+operator, "Amtrak", 1612
+start_date, "1914", 4
+to, "Warm Springs / South Fremont", 192
+name, "Washington Street", 10
+wikidata, "Q17042", 14
+name, "Line 802 to Berkeley Amtrak", 108
+to, "Dublin / Pleasanton", 82
+network, "lcn", 439
+wikidata, "Q877714", 2
+start_date, "1966", 2
+name, "Library LRC", 2
+start_date, "1993", 5
+name, "Clay Street", 8
+name, "Phoenix Commons", 2
+FIXME, "Underlying infrastructure "Seattle Subdivision" needs some fixing", 1364
+name, "Line 14 to Fruitvale BART", 94
+addr:housenumber, "7000", 2
+wikidata, "Q1147732", 2
+start_date, "1948", 2
+name, "San Joaquin", 700
+tiger:PLACEFP, "08310", 6
+to, "Emery Bay Public Market", 128
+name, "Line 31 to Alameda Point", 259
+name, "West Oakland", 5
+ref, "51A", 225
+from, "Hilltop Mall", 252
+from, "Berkeley Amtrak", 119
+ref, "5", 66
+ref, "1", 365
+from, "Bakersfield Station", 349
+from, "Daly City", 319
+from, "West Oakland BART", 69
+from, "San Francisco", 392
+name, "Line 26 to Emery Bay Public Market", 128
+tiger:FUNCSTAT, "A", 43
+ref, "580", 447
+leisure, "park", 2
+name, "17th Street", 18
+name, "Highland Hospital", 3
+from, "Millbrae", 271
+website, "http://www.amtrak.com/servlet/ContentServer?pagename=am/am2Station/Station_Page&code=OKJ", 4
+name, "Line 31 to Downtown Oakland", 91
+name, "2nd Avenue", 6
+name, "Allegro At Jack London Square", 2
+wikidata, "Q917671", 6
+usage, "main", 152
+name, "57th Avenue", 4
+name, "Oakland Public Parking Garage", 2
+from, "Monroe Street & San Pablo Avenue", 135
+name, "Jackson Palms", 2
+via, "19th Street Oakland BART", 342
+to, "Lake Merritt BART", 109
+from, "Contra Costa College", 251
+name, "Line 51A to Rockridge BART", 110
+from, "Richmond BART", 357
+colour, "#faa61a", 400
+type, "multipolygon", 786
+name, "Embarcadero", 10
+name, "Alameda", 3
+wikidata, "Q62", 20
+name:el, "Αλαμήντα", 3
+name, "Line 51A", 2
+name, "38th Avenue", 4
+name, "Garfield Neurobehavioral Center", 2
+ref, "711-717", 349
+COUNTYFP, "001", 2
+source, "Bing", 2
+name, "31st Avenue", 5
+to, "Foothill Square", 164
+from, "Emery Bay Public Market", 128
+wikipedia, "en:Brisbane, California", 6
+name, "18th Street", 4
+county:name, "Alameda", 32
+name, "Warm Springs / South Fremont-Richmond", 104
+network, "US:CA", 590
+network, "rcn", 489
+name:fa, "سان فرانسیسکو", 20
+tiger:PLACENS, "02411292", 14
+operator, "Amtrak California", 700
+name, "SFO-Pittsburg/Bay Point", 162
+building, "hospital", 6
+landuse, "grass", 2
+is_in:state_code, "CA", 43
+gnis:feature_id, "1661760", 2
+wikidata, "Q3095811", 4
+via, "MacArthur Boulevard", 187
+name, "Line 18 to Lake Merritt BART", 135
+name, "East 12th Street", 8
+contact:website, "https://museumca.org/", 2
+name, "Line 18 to University Village", 140
+name, "Line 62 to Fruitvale BART", 69
+name, "Water Street", 3
+name, "Jensen Street", 2
+county:name, "San Mateo", 32
+operator, "AC Transit", 6025
+to, "Downtown Oakland", 303
+name, "Oakland International Airport", 5
+name, "Niles Subdivision", 46
+addr:street, "Jackson Street", 2
+name, "Oakland International Airport-Coliseum", 9
+name, "Line 1", 2
+ref, "518-533; 720-751", 244
+tiger:PCICBSA, "Y", 34
+opening_hours, "We-Th 11:00-17:00; Fr 11:00-21:00; Sa-Su 10:00-18:00", 2
+name, "Fallon Street", 4
+tourism, "museum", 2
+addr:city, "Berkeley", 214
+alt_name, "San Mateo", 32
+tiger:PCICBSA, "N", 9
+name, "Line 1R to Downtown Berkeley BART (Weekend)", 208
+type, "restriction", 447
+is_in:country, "USA", 43
+colour, "#4db848", 330
+boat, "yes", 6
+tiger:PCINECTA, "N", 43
+name, "Line 12", 2
+name, "Line 14", 2
+name, "Line 18", 2
+name, "Line 1R", 4
+name, "Line 26", 2
+ref, "72M", 267
+name, "Line 31", 4
+name, "Line 33", 1
+name, "Service Building", 3
+name, "Richmond-Fremont", 94
+to, "Daly City", 318
+name, "112 (unsigned)", 55
+operator, "BART", 2010
+via, "International Boulevard", 206
+service, "long_distance", 1364
+name, "Daly City-Warm Springs / South Fremont", 87
+amenity, "clinic", 2
+name, "I 580 (CA westbound)", 223
+name, "Home Place East", 2
+gnis:county_id, "001", 2
+alt_name, "Clay Street Plaza", 3
+from, "Eastmont Transit Center", 1
+name, "City and Port of Oakland Joint Domain Awareness Center", 27
+to, "Gilman St & 6th St", 167
+ref, "800", 751
+ref, "802", 229
+restriction, "no_u_turn", 309
+old_name, "Merritt's Lake;San Antonio Slough;San Antonio Creek", 6
+name, "Fremont-Daly City", 76
+name, "Capitol Corridor", 244
+name, "Capell Street", 3
+tiger:STATEFP, "06", 43
+name:zh, "880號州際公路", 135
+building, "residential", 4
+ref, "880", 266
+name, "Fruitvale Avenue", 37
+leisure, "common", 9
+enforcement, "check", 27
+ref, "851", 274
+leisure, "stadium", 2
+to, "Lakeshore Avenue", 128
+name, "Line 57", 2
+name, "Line 62", 2
+alt_name, "988 Franklin Street", 5
+name, "Line 1R to Bay Fair BART (Weekend)", 206
+name, "Brisbane", 6
+name, "Line 72", 4
+name, "Line 88", 2
+name, "16th Street", 5
+name, "Oakland", 14
+area, "yes", 4
+name, "Pittsburg/Bay Point-SFO", 165
+colour, "#ed1c24", 355
+wikipedia, "en:Oakland, California", 14
+from, "Oakland Amtrak at Jack London Square", 167
+name:ko, "샌프란시스코", 20
+direction, "west", 223
+name:vi, "Cựu Kim Sơn", 20
+name, "Embarcadero West", 7
+route, "bicycle", 928
+from, "Downtown Oakland", 496
+wikipedia, "en:Interstate 880", 135
+from, "Bay Fair BART", 919
+alt_name, "San Francisco", 21
+via, "Highland Avenue", 141
+name, "Lakeshore Avenue", 30
+name, "Shoreline Park", 2
+network, "Amtrak", 2064
+name, "Line 12 to Northwest Berkeley", 167
+name, "Line 57 to Foothill Square", 164
+ref, "980", 20
+Tiger:MTFCC, "K2180", 2
+ref, "Blue", 164
+wikidata, "Q400030", 135
+tiger:NAMELSAD, "Alameda city", 3
+name, "San Francisco", 20
+place, "city", 4
+population, "765135", 32
+alt_name, "Canon Avenue", 2
+name, "The Sierra", 2
+public_transport, "stop_area", 65
+ref, "18", 277
+ref, "14", 2
+ref, "12", 344
+ref, "13", 91
+name, "Richmond-Daly City/Millbrae", 4
+amenity_1, "toilets", 4
+unsigned_ref, "112", 55
+ref, "45", 88
+ref, "50", 4
+ref, "57", 352
+ref, "29", 69
+ref, "26", 258
+name, "Federal Building Plaza", 3
+ref, "1R", 1109
+name, "International Boulevard", 99
+ref, "33", 134
+ref, "31", 517
+ref, "35", 90
+ref, "88", 216
+restriction, "no_left_turn", 75
+amenity, "parking", 9
+ref, "63", 3
+ref, "61", 179
+name, "Line 57 to 40th Street & San Pablo Avenue", 186
+ref, "62", 143
+STATEFP, "06", 2
+ref, "77", 11
+ref, "72", 507
+name, "Line 1R to Bay Fair BART (Weekday)", 343
+name:uk, "Аламеда", 3
+route, "monorail", 19
+symbol, "http://upload.wikimedia.org/wikipedia/commons/c/c6/I-880.svg", 266
+from, "Pittsburg/Bay Point", 165
+cycle_network, "US:CA", 489
+from, "Downtown Berkeley", 139
+name, "San Francisco Bay Trail", 489
+from, "Alameda Point", 254
+name, "Air Park Plaza", 2
+from, "Dublin / Pleasanton", 80
+population, "1638215", 32
+via, "San Pablo Avenue", 995
+network, "US:I", 733
+name:ru, "Аламида", 3
+addr:housenumber, "1540", 2
+from, "Coliseum (OAC)", 10
+colour, "#F0E68C", 700
+tiger:PLACEFP, "67000", 20
+name, "E Complex", 3
+name, "Line 33 to Estates Ave. & Inverlieth Terr., Piedmont", 133
+tiger:NAME, "San Francisco", 20
+height, "95", 2
+is_in, "USA, California", 43
+name, "Millbrae-Richmond", 98
+type, "public_transport", 65
+wikidata, "Q662171", 91
+name, "Oakland Subdivision", 118
+name, "Harrison Street", 38
+unsigned_ref, "260", 36
+name, "A Complex", 3
+name, "Oakland City Center - 12th Street", 13
+name, "Jackson Lake Apartments", 4
+name, "35th Avenue", 48
+to, "Pittsburg/Bay Point", 335
+to, "Alameda Point", 259
+name, "San Mateo County", 32
+to, "Fruitvale BART", 415
+restriction, "only_right_turn", 9
+name, "Richmond-Millbrae", 104
+type, "route_master", 63
+wikidata, "Q3623431", 6
+type, "associatedStreet", 975
+from, "Montclair", 133
+source, "Tiger2009", 8
+via, "12th Street BART", 214
+name:zh, "旧金山", 41
+route, "subway", 1912
+via, "Downtown Oakland", 2124
+name, "Line 800", 2
+name, "Line 802", 2
+from, "Oakland - Jack London Square Station", 347
+name, "East 38th Street", 10
+latitude, "+37.7845455", 2
+service, "regional", 940
+name, "Line 851", 2
+restriction, "only_left_turn", 3
+from, "Lake Merritt BART", 105
+wikipedia, "en:San Francisco", 20
+to, "Millbrae", 281
+alt_name, "SBC Building", 2
+to, "Fremont", 170
+historic, "yes", 10
+name, "Underwood Apts", 3
+name, "Line 51A to Fruitvale BART", 113
+name, "Glen Park Road", 17
+name, "Line 62 to West Oakland BART", 72
+tiger:NAME, "Brisbane", 6
+tiger:PLCIDFP, "0608310", 6
+wikipedia, "en:San Leandro, California", 4
+name, "Alameda County", 32
+tiger:CLASSFP, "C1", 43
+name, "Coast Subdivision", 183
+to, "Jack London Square", 503
+to, "7th Street & Oak Street", 135
+wikipedia, "en:Alameda County, California", 32
+Tiger:MTFCC, "H2030", 6
+name, "San Leandro", 4
+ref, "11-14", 1364
+from, "Downtown Berkeley BART", 452
+name, "B Complex", 3
+ref, "701-718", 4
+name, "Broadway", 139
+wikipedia, "en:San Mateo County, California", 32
+to, "Downtown Berkeley", 133
+name, "East 10th Street", 2
+name, "Champion Street", 3
+amenity, "townhall", 4
+name, "Pacifica Senior Living Oakland Heights", 2
+name, "Coliseum", 13
+building, "stadium", 2
+name, "Line 72M", 2
+name, "Crist Street", 2
+name, "8th Street", 11
+name, "Pacific Renaissance Plaza", 5
+to, "40th Street & San Pablo Avenue", 186
+from, "40th Street & San Pablo Avenue", 164
+is_in:iso_3166_2, "US:CA", 43
+ALAND, "0", 6
+old_name:vi, "Cựu Kim Sơn", 20
+colour, "silver", 21
+from, "8th St & Oak St", 140
+from, "Fruitvale BART", 408
+leisure, "track", 8
+to, "Oakland - Jack London Square Station", 349
+name, "Daly City-Fremont", 76
+name, "Line 14 to Downtown Oakland", 93
+name, "Madison Street", 15
+name, "NL", 1
+name, "Line 12 to Oakland Amtrak", 175
+ref, "Orange", 400
+wheelchair, "yes", 6
