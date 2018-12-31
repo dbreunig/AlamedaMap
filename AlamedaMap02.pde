@@ -11,31 +11,32 @@ String inFocusWay;
 color backgroundColor;
 
 void setup() {
-  size(1200, 1400);
+  size(1200, 1400, P3D);
   backgroundColor = 200;
   background(backgroundColor);
   frameRate(120);
 
 
-  //theMap = new OSMMap(loadXML("tinymap.xml"));
-  theMap = new OSMMap(loadXML("alameda.xml"));
+  theMap = new OSMMap(loadXML("tinymap.xml"));
+  //theMap = new OSMMap(loadXML("alameda.xml"));
   drawnWayIDs = new StringList();
   println(theMap.statsString());
   
   // Interactive Mode Flags
   clickableWays = true;
-  
+    
   noSmooth();
   drawMap();
 
 }
 
 void draw() {
-
+  camera(mouseX, height / 2, (height/2) / tan(PI/6), width/2, height/2, 0, 0, 1, 0);
+  drawMap();
 }
 
 void drawMap() {
-    /* Generating map01.png */ // Basic Display v2
+  /* Generating map01.png */ // Basic Display v2
   //for ( Way way : theMap.ways.values() ) {
   //  drawWay(way, 255, 0);
   //}
@@ -49,7 +50,6 @@ void drawMap() {
   //save("map03_topBuildings.png");
 
   /* map04.png */ // No Buildings v2
-  //drawEverythingButTagKey("building");
   //for ( Way way : theMap.waysWithoutTagKey("building") ) {
   //  drawWay(way, 255, 0);
   //}
@@ -88,13 +88,11 @@ void drawMap() {
   
   /* map11.png */ // Draw relations
   //for ( Relation relation : theMap.relations.values() ) {
-  //  for ( RelationMember m : relation.members ) {
-  //    if ( m.type.equals("way") ) {
-  //      Way w = theMap.ways.get(m.id);
-  //      if ( w != null ) drawWay(w, 255, nextColor());
-  //    }
-  //  }
+  //  drawRelation(relation, 0, 255);
   //}
+  
+  
+  // drawTopTagValues("population", 0);
 }
 
 void mouseClicked() {
@@ -151,13 +149,22 @@ void displayInFocusWayInfo() {
   }
 }
 
+void drawRelation(Relation relation, color fillColor, color strokeColor) {
+  for ( RelationMember m : relation.members ) {
+  if ( m.type.equals("way") ) {
+      Way w = theMap.ways.get(m.id);
+      if ( w != null ) drawWay(w, fillColor, strokeColor, 0);
+    }
+  }
+}
+
 void drawNode(Node node, color strokeColor) {
   stroke(strokeColor);
   Coordinates coords = theMap.remap(node);
   point(coords.lon, coords.lat);
 }
 
-void drawWay(Way way, color fillColor, color strokeColor) {
+void drawWay(Way way, color fillColor, color strokeColor, float z) {
   if (way.closed) {
     fill(fillColor);
     if ( clickableWays && inFocusWay != null ) {
@@ -180,16 +187,21 @@ void drawWay(Way way, color fillColor, color strokeColor) {
 void drawTopTagValues(String keyString, Integer minCount) {
   StringList topValues = new StringList();
   for ( Tag tag : theMap.tags.values() ) {
-    if ( tag.keyString.equals(keyString) && tag.wayIDs.size() > minCount ) {
-      topValues.append(tag.id);
-    }
+    if ( tag.keyString.equals(keyString) && tag.wayIDs.size() > minCount ) topValues.append(tag.id);
+    if ( tag.keyString.equals(keyString) && tag.relationIDs.size() > minCount ) topValues.append(tag.id);
   }
   HashMap<String, Integer> topValueColors = zipIDsWithColors(topValues.array(), colorArray());
   for ( Tag tag : theMap.tags.values() ) {
     if ( tag.keyString.equals(keyString) && tag.wayIDs.size() > minCount ) {
       for ( String wayID : tag.wayIDs ) {
         Way way = theMap.ways.get(wayID);
-        drawWay(way, topValueColors.get(tag.id), topValueColors.get(tag.id));
+        drawWay(way, topValueColors.get(tag.id), topValueColors.get(tag.id), 0);
+      }
+    }
+    if ( tag.keyString.equals(keyString) && tag.relationIDs.size() > minCount ) {
+      for ( String relationID : tag.relationIDs ) {
+        Relation relation = theMap.relations.get(relationID);
+        drawRelation(relation, topValueColors.get(tag.id), topValueColors.get(tag.id));
       }
     }
   }
@@ -199,7 +211,11 @@ void drawTopTagValues(String keyString, Integer minCount) {
 void drawTag(Tag tag) {
   for ( String wayID : tag.wayIDs ) {
     Way way = theMap.ways.get(wayID);
-    drawWay(way, 255, nextColor());
+    drawWay(way, 255, nextColor(), 0);
+  }
+  for ( String relationID : tag.relationIDs ) {
+    Relation relation = theMap.relations.get(relationID);
+    drawRelation(relation, 255, nextColor());
   }
 }
 

@@ -20,7 +20,7 @@ I'll be documenting my progress as I go with simple output:
 
 ![map03](output_tests/map03.png)
 
-### Map 04: Everything Buy Buildings
+### Map 04: Everything But Buildings
 
 ![map04](output_tests/map04.png)
 

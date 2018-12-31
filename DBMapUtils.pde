@@ -222,13 +222,14 @@ class OSMMap {
   }
   void writeRelationTagsToCSV(String filename) {
     output = createWriter(filename);
-    for ( Tag tag : tag.values() ) {
-      if ( tag.relationID.size() > 0 ) {
+    for ( Tag tag : tags.values() ) {
+      if ( tag.relationIDs.size() > 0 ) {
         output.println(tag.keyString + ", " + "\"" + tag.valueString + "\"" + ", " + tag.relationIDs.size() );
       }
-      output.flush();
-      output.close();
     }
+    output.flush();
+    output.close();
+  }
 }
 
 // Class for coordinates
