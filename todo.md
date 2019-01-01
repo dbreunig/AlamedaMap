@@ -1,0 +1,4 @@
+- Organize processing folder structure (to allow for new files)
+- Find a source for elevation data
+- Figure out how to close/fill natural shapes effectively
+- All the work for the camera, etc needs to be refactored!
